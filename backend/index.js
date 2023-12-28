@@ -21,7 +21,6 @@ app.post("/authenticate", async (req, res) => {
   }
   // return res.json({ username: username, secret: "sha256..." });
 });
-// da4e3245-f42c-422b-981e-ac29a1ec72c3
 
 app.post("/signup", async (req, res) => {
   return {};
